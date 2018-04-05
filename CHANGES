@@ -1,27 +1,5 @@
-0.1.3:
+
+0.1:
 -----
-Release date: **09.02.2018**
-
- * Fix config namespace into the NavigationServiceProvider
-
-
-0.1.2:
------
-Release date: **09.02.2018**
-
- * Fix wrong namespace in the resource config
- 
-
-0.1.1:
------
-Release date: **08.02.2018**
-
- * fix composer.json
-
-
-0.1.0:
------
-Release date: **08.02.2018**
-
- * Ready for the first release
- * Fix namespace
+Release date: **05.04.2018**
+ * Fork from ORMBG

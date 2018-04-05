@@ -1,0 +1,36 @@
+{
+"name": "ormbg/navigation",
+    "description": "The OrmBg navigation manager and builder .",
+    "keywords": ["ormbg", "framework", "laravel", "navigation"],
+    "license": "MIT",
+    "homepage": "https://orm.bg",
+    "authors": [
+        {
+            "name": "Ivan I. Atanasov",
+            "email": "iatanasov@orm.bg"
+        }
+    ],
+    "require": {
+    	"php": ">=7.0",
+       "laravel/framework" : "5.5.*",
+       "ormbg/core": "dev-master#v0.1.1",
+       "ormbg/user-management": "dev-master#v0.2.1",
+       "lavary/laravel-menu":	"1.7.*"
+    },
+    "repositories": [
+	    {
+            "type": "git",
+            "url": "http://office.orm/git/orm-core.git"
+        },
+		{
+            "type": "git",
+            "url": "http://office.orm/git/orm-user-management.git"
+        }
+	],
+    "autoload": {
+        "psr-4": {
+            "OrmBg\\": "src/OrmBg/"
+        }
+    },
+    "minimum-stability" : "dev"
+}

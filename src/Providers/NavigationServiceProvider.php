@@ -1,6 +1,4 @@
-<?php
-
-namespace OrmBg\Modules\Navigation\Providers;
+<?php namespace IA\LaravelNavigation\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
@@ -46,10 +44,10 @@ class NavigationServiceProvider extends ServiceProvider
     protected function registerConfig()
     {
         $this->publishes([
-            __DIR__.'/../Config/config.php' => config_path( 'ormbg/navigation.php' ),
+            __DIR__.'/../Config/config.php' => config_path( 'ia/navigation.php' ),
         ], 'config');
         $this->mergeConfigFrom(
-            __DIR__.'/../Config/config.php', 'ormbg.navigation'
+            __DIR__.'/../Config/config.php', 'ia.navigation'
         );
     }
 

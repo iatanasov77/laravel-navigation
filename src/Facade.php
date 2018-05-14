@@ -1,4 +1,4 @@
-<?php namespace OrmBg\Modules\Navigation;
+<?php namespace IA\LaravelNavigation;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;
 

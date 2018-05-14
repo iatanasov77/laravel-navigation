@@ -13,8 +13,8 @@
     "require": {
     	"php": ">=7.0",
        "laravel/framework" : "^5.6",
-       "iatanasov77/laravel-core": "dev-master#v0.1.1",
-       "iatanasov77/laravel-user-management": "dev-master#v0.1.1",
+       "iatanasov77/laravel-core": "dev-master#v0.1.2",
+       "iatanasov77/laravel-user-management": "dev-master#v0.1.2",
        "lavary/laravel-menu":	"1.7.*"
     },
     "repositories": [

@@ -1,9 +1,9 @@
-<?php namespace OrmBg\Modules\Navigation;
+<?php namespace IA\LaravelNavigation;
 
 use Lavary\Menu\Facade      as LavaryMenu;
 use Lavary\Menu\Item        as LavaryItem;
 use Illuminate\Support\Facades\Cache;
-use OrmBg\Modules\Navigation\Entities\Menu;
+use IA\LaravelNavigation\Entities\Menu;
 
 class Navigation
 {

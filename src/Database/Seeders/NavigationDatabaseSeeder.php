@@ -1,6 +1,6 @@
 <?php
 
-namespace OrmBg\Modules\Navigation\Database\Seeders;
+namespace IA\LaravelNavigation\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;

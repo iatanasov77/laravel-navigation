@@ -1,4 +1,4 @@
-<?php namespace OrmBg\Modules\Navigation\Entities;
+<?php namespace IA\LaravelNavigation\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 use Cviebrock\EloquentSluggable\Sluggable;

@@ -1,6 +1,6 @@
 <?php
 
-namespace IA\LaravelNavigation\Database\Seeders;
+namespace IA\Laravel\Modules\Navigation\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;

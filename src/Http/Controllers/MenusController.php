@@ -1,8 +1,8 @@
-<?php namespace IA\LaravelNavigation\Http\Controllers;
+<?php namespace IA\Laravel\Modules\Navigation\Http\Controllers;
 
 use Illuminate\Database\Eloquent\Model;
 use OrmBg\Core\CRUD\ResourceController;
-use IA\LaravelNavigation\Facade as Navigation;
+use IA\Laravel\Modules\Navigation\Facade as Navigation;
 use Illuminate\Http\Request;
 use OrmBg\Modules\UserManagement\Entities\Permission;
 

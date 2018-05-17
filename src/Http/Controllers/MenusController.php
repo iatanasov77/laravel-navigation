@@ -1,10 +1,11 @@
 <?php namespace IA\Laravel\Modules\Navigation\Http\Controllers;
 
 use Illuminate\Database\Eloquent\Model;
+
 use IA\Laravel\Core\CRUD\ResourceController;
 use IA\Laravel\Modules\Navigation\Facade as Navigation;
 use Illuminate\Http\Request;
-use OrmBg\Modules\UserManagement\Entities\Permission;
+use IA\Laravel\Modules\UserManagement\Entities\Permission;
 
 class MenusController extends ResourceController
 {

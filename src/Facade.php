@@ -1,4 +1,4 @@
-<?php namespace IA\LaravelNavigation;
+<?php namespace IA\Laravel\Modules\Navigation;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;
 
